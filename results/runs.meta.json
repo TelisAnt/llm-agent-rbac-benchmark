@@ -1,0 +1,46 @@
+{
+  "args": {
+    "models": [
+      "ollama:llama3.1:8b",
+      "ollama:qwen2.5:7b"
+    ],
+    "configs": [
+      "prompt_only",
+      "strict_schema",
+      "rbac"
+    ],
+    "categories": [
+      "benign",
+      "direct",
+      "indirect",
+      "multistep",
+      "obfuscation"
+    ],
+    "reps": 3,
+    "temperature": 0.0,
+    "seed": 1234,
+    "max_steps": 4,
+    "workers": 1,
+    "limit": 0,
+    "out": "results/runs.jsonl"
+  },
+  "n_scenarios": 103,
+  "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "permissions": {
+    "guest": [
+      "read_public_data"
+    ],
+    "analyst": [
+      "read_public_data",
+      "read_sensitive_records"
+    ],
+    "admin": [
+      "delete_record",
+      "modify_record",
+      "read_public_data",
+      "read_sensitive_records"
+    ]
+  },
+  "suite_hash": "ce55bf507ba2fd4b"
+}

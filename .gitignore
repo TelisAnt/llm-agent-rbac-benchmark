@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.env
+.idea/
+.vscode/
+.DS_Store
+
+# smoke tests and pilot runs, not part of the reported experiment
+results/smoke*
+results/pilot*
+results/stub*
+
+# figures that make_figures.py can draw but the paper does not use
+figures/fig_role.*
+figures/fig_blocked.*
+figures_el/
+asr_*.png
+results/asr_*.png

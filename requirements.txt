@@ -1,0 +1,3 @@
+openai>=1.50       # needed for Ollama and other OpenAI-compatible servers too
+matplotlib>=3.8     # make_figures.py and evaluation --plots
+anthropic>=0.40     # only for anthropic:<model>
